@@ -1,4 +1,4 @@
-package main
+package server
 
 import (
 	user "Galaraz/gRPC-mongo/proto/gen"

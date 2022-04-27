@@ -2,6 +2,8 @@ package main
 
 import (
 	user "Galaraz/gRPC-mongo/proto/gen"
+	"Galaraz/gRPC-mongo/server"
+	"fmt"
 	"log"
 	"net"
 
@@ -14,8 +16,8 @@ func main() {
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)
 	}
-
-	usr := Server{}
+	fmt.Println("testo aleatorio")
+	usr := server.Server{}
 
 	grpcServer := grpc.NewServer()
 
