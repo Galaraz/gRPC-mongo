@@ -1,15 +1,12 @@
 # gRPC-mongo
-exemplo gRPC com mongo
-
-
 
 Desafio era realizar uma aplicacao que ultiliza protocolo gRPC e persistir em mongoBD
 
 Passos ate o alvo  
- aprender go e suas dialeticas
- executar portejo com minimo viavel
- executar testes
- melhorar codigo ( adaptar ao SOLID )
+ - [x] aprender go e suas dialeticas
+ - [x] executar portejo com minimo viavel
+ - [ ] executar testes
+ - [ ] melhorar codigo ( adaptar ao SOLID )
 
 
 
