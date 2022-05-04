@@ -28,8 +28,6 @@ type User struct {
 	ReposURL   string `json:"repos_url" bson:"repos_url"`
 }
 
-// felipeagger
-
 //GetUser is get user on github
 func (s *Server) GetUser(ctx context.Context, in *user.UserRequest) (*user.UserResponse, error) {
 	log.Printf("Receive message from client: %s", in.Username)
