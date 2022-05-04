@@ -4,7 +4,7 @@ Desafio era realizar uma aplicacao que ultiliza protocolo gRPC e persistir em mo
 
 Passos ate o alvo  
  - [x] aprender go e suas dialeticas
- - [x] executar portejo com minimo viavel
+ - [x] executar protejo com minimo viavel
  - [ ] executar testes
  - [ ] melhorar codigo ( adaptar ao SOLID )
 
